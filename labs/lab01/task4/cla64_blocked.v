@@ -25,7 +25,7 @@ module cla64_blocked(
   cla4 block0 (.a(a[3:0]),    .b(b[3:0]),    .cin(cin),  .sum(sum[3:0]),    .cout(c[1]));
   cla4 block1 (.a(a[7:4]),    .b(b[7:4]),    .cin(c[1]),  .sum(sum[7:4]),    .cout(c[2]));
   cla4 block2 (.a(a[11:8]),    .b(b[11:8]),    .cin(c[2]),  .sum(sum[11:8]),    .cout(c[3]));
-  cla4 block3 (.a(a[15:12]),    .b(b[15:12]),    .cin(c[2]),  .sum(sum[15:12]),    .cout(c[4]));
+  cla4 block3 (.a(a[15:12]),    .b(b[15:12]),    .cin(c[3]),  .sum(sum[15:12]),    .cout(c[4]));
   cla4 block4  (.a(a[19:16]), .b(b[19:16]), .cin(c[4]),  .sum(sum[19:16]), .cout(c[5]));
   cla4 block5  (.a(a[23:20]), .b(b[23:20]), .cin(c[5]),  .sum(sum[23:20]), .cout(c[6]));
   cla4 block6  (.a(a[27:24]), .b(b[27:24]), .cin(c[6]),  .sum(sum[27:24]), .cout(c[7]));
